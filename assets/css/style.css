@@ -3,7 +3,7 @@
     background-size:cover;
     background-repeat: no-repeat;
     }
-    
+    /* quiz elements */
     li{
         padding-bottom: 5px;
         color: white;
@@ -41,7 +41,7 @@
         max-width: 80rem;
         margin: 0 auto;
       }
-    
+    /* buttons */
       button {
         display: inline-block;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -60,7 +60,7 @@
           box-shadow: 6px 2px 8px #989cc2;
           
       }
-    
+    /* quiz container */
     #main{
         display: flex;
         flex-direction: column;
@@ -90,7 +90,7 @@
         flex-direction: column;
         align-items: center;
     }
-    
+    /* high score section */
     #highScore{
         height: 1.5rem;
         border: groove 2px;
