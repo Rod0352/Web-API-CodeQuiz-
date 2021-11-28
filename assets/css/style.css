@@ -1,0 +1,154 @@
+:root{
+    background-image:url(../37kt0l.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    }
+    
+    li{
+        padding-bottom: 5px;
+        color: white;
+        text-shadow: 1.5px 1px 3px black;
+        list-style-type: none;
+    }
+    
+    p{
+        color:#5d69db;
+        text-shadow: .5px .5px white;
+        text-align: center;
+        font-size: 29px;
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 11px;
+    }
+    h2{
+        font-family: sans-serif;
+        margin-top: -.5rem;
+        color: #fff;
+        background-color: #5d69db;
+        padding: 10px;
+        border-radius: 9px;
+    }
+    input{
+        text-align: center;
+    }
+    
+    .container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 80rem;
+        margin: 0 auto;
+      }
+    
+      button {
+        display: inline-block;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        background-color: #5d69db;
+        border-radius: 10px;
+        border: 1px double #fff;
+        color: #ffe;
+        text-align: center;
+        font-size: 14px;
+        padding: 20px;
+        width: 160px;
+        margin-top: 10px;
+      }
+    
+      button:hover{
+          box-shadow: 6px 2px 8px #989cc2;
+          
+      }
+    
+    #main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #timer{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: #5d69db;
+        font-size: 30px;
+        text-shadow: 1px .5px #fff;
+        text-align: center;
+        background-color: #fff;
+        border-radius: 10px;
+    }
+    #quiz {
+        display: none;
+    }
+    
+    #result {
+        display: none;
+    }
+    
+    #endGame {
+        text-align: center;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #highScore{
+        height: 1.5rem;
+        border: groove 2px;
+    }
+    
+    #high-scorePage{
+        display: none;
+        width: 50%;
+        border-radius: 10px;
+        background: #5d69db;
+    }
+    
+    #highscore-header{
+        display:flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+        background-color: #a4a8d1;
+        color: #eeeeee;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #highscoreContainer{
+        height: 100%;
+        width: 100%;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #initials{
+        margin: 30px;
+        height: 40px;
+    }
+    
+    #highscore-initials{
+        display: inline-block;
+        padding-left: 9.5rem;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+    
+    #highscore-view{
+        float: right;
+        padding-right: 28px;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+    
+    #finalScore{
+        font-size: 29px;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: #fff;
+        background-color: #5d69db;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    
+    #endGameBtns{
+        display: none;
+    }
